@@ -33,3 +33,16 @@ String f = 'Industry';
 String v = 'Consulting';
 Id batchInstanceId = Database.executeBatch(new UpdateAccountFields(q,e,f,v), 5); 
  ****/ 
+
+
+/***
+ // Query for accounts that aren't in the Recycle Bin
+String q = 'SELECT Industry FROM Account WHERE isDeleted=false LIMIT 10';
+String e = 'Account';
+String f = 'Industry';
+String v = 'Consulting';
+Id batchInstanceId = Database.executeBatch(new UpdateAccountFields(q,e,f,v), 5); 
+**/
+
+
+
