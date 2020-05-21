@@ -1,4 +1,4 @@
-public with sharing class batchableWithiterable implements Database.batchable<Account>{ 
+global with sharing class batchableWithiterable implements Database.batchable<Account>{ 
     global Iterable<Account> start(Database.batchableContext info){ 
         return new example(); 
     }     

@@ -1,4 +1,4 @@
-public with sharing class batchClassIItrerable {
+Global with sharing class batchClassIItrerable {
     
    global Iterable start(Database.BatchableContext info){ 
     return new CustomAccountIterable(); 

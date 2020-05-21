@@ -1,7 +1,7 @@
 public class MixedDMLFuture {
     public static void useFutureMethod() {
         // First DML operation
-        Account a = new Account(Name='Acme');
+        Account a = new Account(Name='Acme2');
         insert a;
         
         // This next operation (insert a user with a role) 
